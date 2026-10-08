@@ -1,0 +1,15 @@
+{
+    "name": "wemakegood/wp-local-devkit",
+    "description": "WP-CLI commands for testing local WordPress sites as a test user and snapshotting the database before changes. Refuses to run anywhere but a local dev host.",
+    "type": "wp-cli-package",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/WeMakeGood/wp-local-devkit",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "files": [
+            "devkit.php"
+        ]
+    }
+}

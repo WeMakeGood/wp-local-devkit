@@ -1,0 +1,4 @@
+vendor/
+.DS_Store
+# Site configs and fixtures live in each site root, never here.
+devkit.local.php
