@@ -29,7 +29,7 @@ class Snapshot_Command {
 	 * ## OPTIONS
 	 *
 	 * [<label>]
-	 * : What the snapshot is before, e.g. "cohort-template".
+	 * : What the snapshot is before, e.g. "header-redesign".
 	 * ---
 	 * default: snapshot
 	 * ---
@@ -39,7 +39,7 @@ class Snapshot_Command {
 	 *
 	 * ## EXAMPLES
 	 *
-	 *     wp devkit snapshot create cohort-template
+	 *     wp devkit snapshot create header-redesign
 	 */
 	public function create( $args, $assoc_args ) {
 		Config::require_local();
@@ -98,7 +98,7 @@ class Snapshot_Command {
 	 *
 	 * ## EXAMPLES
 	 *
-	 *     wp devkit snapshot restore 2026-10-08-143000-cohort-template.sql
+	 *     wp devkit snapshot restore 2026-10-08-143000-header-redesign.sql
 	 */
 	public function restore( $args, $assoc_args ) {
 		Config::require_local();
